@@ -1,7 +1,8 @@
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
-from sklearn.linear_model import Ridgeimport streamlit as st
+from sklearn.linear_model import Ridge
+import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
